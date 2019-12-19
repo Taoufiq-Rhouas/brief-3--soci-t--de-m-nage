@@ -1,0 +1,44 @@
+img.logo {
+    height: 90px;
+}
+
+#elements li {
+    display: inline-block;
+    margin: 2%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+ul#elements {
+    width: 100%;
+}
+
+#elements a {
+    text-decoration: none;
+}
+
+.top_menu {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#info li {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.requestAQuote button {
+    border-radius: 35px;
+    width: 130px;
+    height: 44px;
+    border: none;
+    background-color: #38ADA9;
+}
