@@ -6,8 +6,19 @@
     justify-content: space-around;
 }
 
+/* Border Under Top Menu */
+#border-bottom{
+    border-bottom: 1px solid;
+    color: 707070;
+    width: 101%;
+    margin-left: -8px;
+}
+
 img.logo {
-    height: 90px;
+    height: 81px;
+}
+#info #email{
+    color: #38ADA9;
 }
 
 #elements li {
@@ -49,4 +60,9 @@ ul#elements {
 /* Menu Icon */
 .menu-icon{
     color: black;
+}
+
+/* Active Element */
+.active{
+    color: #38ADA9;
 }
