@@ -1,3 +1,11 @@
+.top_menu {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
 img.logo {
     height: 90px;
 }
@@ -20,15 +28,10 @@ ul#elements {
 
 #elements a {
     text-decoration: none;
+    color: #707070;
 }
 
-.top_menu {
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    justify-content: space-around;
-}
+
 
 #info li {
     display: inline-block;
@@ -41,4 +44,9 @@ ul#elements {
     height: 44px;
     border: none;
     background-color: #38ADA9;
+}
+
+/* Menu Icon */
+.menu-icon{
+    color: black;
 }
