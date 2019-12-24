@@ -1,0 +1,138 @@
+/* main style*/
+body{
+    font-family: 'Poppins';
+}
+
+
+/* Top Menu */
+.top_menu {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/* Border Under Top Menu */
+#border-bottom{
+    border-bottom: 1px solid;
+    color: #DEDEDE;
+    width: 101%;
+    margin-left: -8px;
+}
+
+/* Logo */
+img.logo {
+    height: 70px;
+}
+
+/* Email */
+#info #email{
+    color: #38ADA9;
+}
+/* Welcome and Info*/
+.top_menu #Welcome, #info li{
+    color: #7C7C7C;
+    font-family: 'Poppins', Arial, Helvetica;
+    font-size: 13px;
+    font-style: normal;
+
+}
+
+
+/* Elements */
+#elements li {
+    display: inline-block;
+    margin: 2%;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+ul#elements {
+    width: 100%;
+}
+
+#elements a {
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+#info li {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.requestAQuote button {
+    border-radius: 35px;
+    width: 149px;
+    height: 44px;
+    border: none;
+    background-color: #38ADA9;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu Icon */
+.menu-icon{
+    color: black;
+    display: none;
+}
+
+/* Active Element */
+.active{
+    color: #38ADA9 !important;
+}
+
+/* Mobile Menu */
+#mobile-menu{
+    display: none;
+}
+h2 {
+    text-align: center;
+    color: #38ADA9;
+}
+.img_promo img {
+    height: 50%;
+}
+#Demanderdevis {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+.form_devis {width: 50%;}
+
+
+input[type="text"] {
+    width: 100%;
+}
+
+.img_promo {
+    width: 15%;
+}
+textarea#Commentaires {
+    width: 100%;
+}
+input[type="submit"] {
+    width: 111px;
+    height: 40px;
+    background-color: rgb(56, 173, 169);
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+    border-style: none;
+}

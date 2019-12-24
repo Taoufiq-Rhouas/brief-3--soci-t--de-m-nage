@@ -1,0 +1,72 @@
+/* For extra small devices */
+@media screen and (min-width: 0px) and (max-width: 600px){
+    
+}
+
+/* For small devices */
+@media screen and (max-width: 767px){
+    /* Top Menu and border-bottom: ; */
+    .top_menu, #border-bottom{
+        display: none;
+    }
+    /* Nav bar */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    nav #elements{
+        display: none;
+    }
+    /* Logo */
+    .logo{
+        width: 70px;
+        height: 45px !important;
+        margin-top: 11px;
+    }
+    /* Menu Icon */
+    .menu-icon{
+        float: right;
+        display: inline;
+        margin-top: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    /* block */
+    .block{
+        position: absolute;
+        display: block;
+        background-color: rgb(250, 249, 249);
+        top: 50px;
+        width: 100%;
+    }
+    
+    .block li {
+        list-style-type: none;
+        padding: 4px;
+    }
+    
+    .block li a{
+        text-decoration: none;
+        color: #707070;
+        
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+}
+
+/* For large devices */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    
+}
+
+/* For extra large devices */
+@media screen and (min-width: 1201px){
+
+}
