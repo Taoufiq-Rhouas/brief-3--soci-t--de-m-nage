@@ -109,11 +109,6 @@ h2 {
     justify-content: center;
 }
 
-section {
-    width: 90%;
-    margin: auto;
-}
-
 .form_devis {width: 50%;}
 
 
@@ -128,11 +123,28 @@ textarea#Commentaires {
     width: 100%;
 }
 input[type="submit"] {
-    width: 111px;
-    height: 40px;
+    width: 149px;
+    height: 44px;
     background-color: rgb(56, 173, 169);
     color: white;
     font-weight: bold;
     border-radius: 35px;
     border-style: none;
+}
+
+.Services_en_Vedette img {
+    width: 100%;
+}
+.Services_en_Vedette {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.Services_en_Vedette figure {
+     width: 25%;
+}
+
+figcaption {
+    color: #38ada9;
 }

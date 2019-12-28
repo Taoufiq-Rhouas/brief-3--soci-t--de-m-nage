@@ -54,6 +54,47 @@
     h2 {
         text-align: center;
     }
+    #Demanderdevis {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column;
+    }
+    section{
+        margin: auto;
+        width: 90%;
+    }
+    .form_devis {
+        width: 100%;
+    }
+    .img_promo {
+        margin: auto;
+        width: 70%;
+    }
+
+
+
+
+    /* la page service**/
+    .Services_en_Vedette {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .Services_en_Vedette figure {
+         width: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+    .Services_en_Vedette img {
+        width: 90%;
+    }
+    .Services_en_Vedette figcaption {
+        color: #38ada9;
+        text-align: center;
+    }
 }
 
 /* For medium devices */
