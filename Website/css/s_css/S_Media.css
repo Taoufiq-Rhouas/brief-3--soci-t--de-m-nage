@@ -95,6 +95,29 @@
         color: #38ada9;
         text-align: center;
     }
+    .Comment_Nous_Travaillons {
+        flex-direction: column;
+    }
+    
+    .Comment_Nous_Travaillons figure {
+        width: 90%;
+        margin: auto;
+    }
+    figcaption {
+        text-align: center;
+    }
+    
+    /** Footer **/
+    .f_iteams1 {
+        width: 100%;
+    }
+    .f_iteams {
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+    }
 }
 
 /* For medium devices */

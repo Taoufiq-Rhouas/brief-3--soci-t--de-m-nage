@@ -132,6 +132,8 @@ input[type="submit"] {
     border-style: none;
 }
 
+
+/* Service */
 .Services_en_Vedette img {
     width: 100%;
 }
@@ -145,6 +147,51 @@ input[type="submit"] {
      width: 25%;
 }
 
-.Services_en_Vedette figcaption {
+figcaption {
     color: #38ada9;
+    text-align: center;
+}
+
+.Comment_Nous_Travaillons {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Comment_Nous_Travaillons figure {
+    width: 20%;
+}
+
+.Comment_Nous_Travaillons figure img {
+    width: 100%;
+}
+
+/* Footer **/
+.f_iteams img {
+    height: 90px;
+}
+footer li {
+    list-style: none;
+}
+.f_iteams1 img {
+    height: 90px;
+}
+footer {
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+.f_iteams1 {
+    width: 30%;
+}
+.f_iteams {
+    width: 20%;
+}
+footer h3 {
+    text-align: center;
+}
+li.social_media {
+    color: #38ADA9;
 }
