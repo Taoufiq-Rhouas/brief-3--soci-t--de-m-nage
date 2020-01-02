@@ -209,13 +209,6 @@ ul#elements {
     position: relative;
 }
 
-.card-header-border{
-    border-bottom: 2px solid #EFEFEF;
-    width: 80px;
-    position: relative;
-    left: 33%;
-}
-
 .card-prix{
     color: #7C7C7C;
 }
@@ -246,7 +239,7 @@ ul#elements {
 footer{
     width: 100%;
     margin-top: 10px;
-    position: relative;
+    /* position: absolute; */
     bottom: 0;
 }
 
