@@ -3,10 +3,8 @@ function show() {
     if (mobileMenu.style.display == "block") {
         mobileMenu.style.display = "none";
         mobileMenu.classList.toggle("block");
-        // console.log(mobileMenu);
     }else {
     mobileMenu.style.display = "block";
     mobileMenu.classList.toggle("block");
-    // console.log(mobileMenu);
     }
 }
