@@ -50,6 +50,7 @@ nav {
     align-items: center;
     margin: auto;
     width: 80%;
+    text-align: center;
 }
 
 ul#elements {
@@ -132,6 +133,9 @@ ul#elements {
 }
 
 /* ############# A Propos de nous Section ############# */
+.propos-section-2 p{
+    font-size: 14px !important;
+}
 
 .propos-section .propos-section-1{
     float: left;
@@ -242,6 +246,8 @@ ul#elements {
 footer{
     width: 100%;
     margin-top: 10px;
+    position: relative;
+    bottom: 0;
 }
 
 footer div a , footer div h3, footer div address{

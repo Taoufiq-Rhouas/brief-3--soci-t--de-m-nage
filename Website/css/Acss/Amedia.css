@@ -135,9 +135,12 @@
         margin-top: 5px;
         margin-left: 5px;
     }
+
     footer{
         margin-left: 0px;
         width: 100%;
+        position: relative !important;
+        bottom: 0px;
     }
 
     .footer-propos, .footer-apercu{
@@ -165,10 +168,15 @@
 
 /* For large devices */
 @media screen and (min-width: 993px) and (max-width: 1200px){
+
     
 }
 
 /* For extra large devices */
 @media screen and (min-width: 1201px){
+    .propos-section-2 p{
+        font-size: 1vw !important;
+    }
+
 
 }
