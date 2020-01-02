@@ -1,0 +1,215 @@
+/* For extra small devices */
+@media screen and (min-width: 0px) and (max-width: 600px){
+    
+}
+
+/* For small devices */
+@media screen and (max-width: 767px){
+    /* Top Menu and border-bottom: ; */
+    .top_menu, #border-bottom{
+        display: none;
+    }
+    /* Nav bar */
+    nav {
+        position: absolute;
+    }
+    nav #elements{
+        display: none;
+    }
+    /* Logo */
+    .logo{
+        width: 70px;
+        height: 45px !important;
+        margin-top: 11px;
+    }
+    /* Menu Icon */
+    .menu-icon{
+        float: right;
+        display: inline;
+        margin-top: 15px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    /* block */
+    .block{
+        position: absolute;
+        display: block;
+        background-color: rgb(250, 249, 249);
+        top: 50px;
+        width: 100%;
+    }
+    
+    .block li {
+        list-style-type: none;
+        padding: 4px;
+    }
+    
+    .block li a{
+        text-decoration: none;
+        color: #707070;
+        
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+}
+
+/* For large devices */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    
+}
+
+/* For extra large devices */
+@media screen and (min-width: 1201px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For extra small devices */
+@media screen and (min-width: 0px) and (max-width: 800px){
+    /* Footer  */
+    .footer-propos, .footer-apercu, .footer-services, 
+    .footer-contactez-nous{
+        display: block;
+        width: 100% !important;
+        height: auto;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 30%;
+    }
+}
+
+
+
+/* For medium devices */
+@media screen and (max-width: 992px){
+    
+
+    footer{
+        margin-left: 0px;
+        width: 100%;
+        position: relative !important;
+        bottom: 0px;
+    }
+
+    .footer-propos, .footer-apercu{
+        display: block;
+        width: 50%;
+    }
+    .footer-propos a, .footer-apercu a, .footer-apercu h3{
+        text-align: center;
+    }
+    .footer-services, .footer-contactez-nous{
+        display: block;
+        width: 50%;
+    }
+    .footer-services a, .footer-services h3,
+    .footer-contactez-nous a, .footer-contactez-nous h3, .footer-contactez-nous address{
+        text-align: center;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 35%;
+    }
+
+}
