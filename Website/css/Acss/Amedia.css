@@ -165,15 +165,8 @@
 
 }
 
-/* For large devices */
-@media screen and (max-width: 800px){
-    
-    
-}
-
 /* For extra large devices */
 @media screen and (min-width: 1201px){
-    /* propos-section-test */
     .propos-section-2 p{
         font-size: 1vw !important;
     }

@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 /* Top Menu */
 .top_menu {
     display: flex;
@@ -133,17 +134,10 @@ ul#elements {
 }
 
 /* ############# A Propos de nous Section ############# */
-/* .propos-section{
-    height: 570px;
-    padding-bottom: 777px !important;
-}
 
-.propos-section-1, .propos-section-2{
-    height: 570px;
-    
-} */
 .propos-section-2 p{
     font-size: 14px !important;
+    margin-top: -7px;
 }
 
 .propos-section .propos-section-1{
@@ -247,7 +241,8 @@ ul#elements {
 /* Footer */
 footer{
     width: 100%;
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 
 footer div a , footer div h3, footer div address{
