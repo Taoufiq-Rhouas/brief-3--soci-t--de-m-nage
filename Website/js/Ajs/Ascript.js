@@ -1,12 +1,12 @@
 function show() {
-    var x = document.getElementById("mobile-menu");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-        x.classList.toggle("block");
-        console.log(x);
+    var mobileMenu = document.getElementById("mobile-menu");
+    if (mobileMenu.style.display == "block") {
+        mobileMenu.style.display = "none";
+        mobileMenu.classList.toggle("block");
+        console.log(mobileMenu);
     }else {
-    x.style.display = "block";
-    x.classList.toggle("block");
-    console.log(x);
+    mobileMenu.style.display = "block";
+    mobileMenu.classList.toggle("block");
+    console.log(mobileMenu);
     }
 }

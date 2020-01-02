@@ -25,6 +25,12 @@
     .cards-title{
         font-size: 23px !important;
     }
+
+    .card-header-border{
+        position: relative;
+        left: 41.%;
+    }
+
     .card-1, .card-2, .card-3, .card-4{
         display: block;
         width: 100% !important;
@@ -36,6 +42,12 @@
     .footer-contactez-nous{
         display: block;
         width: 100% !important;
+        height: auto;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 30%;
     }
 }
 
@@ -71,7 +83,8 @@
         position: absolute;
         display: block;
         background-color: rgb(250, 249, 249);
-        top: 50px;
+        z-index: 1;
+        top: 52px;
         width: 100%;
     }
     
@@ -109,11 +122,16 @@
     .cards-title{
         font-size: 5vw;
     }
+
     .card-1, .card-2, .card-3, .card-4{
         display: block;
         width: 44%;
         margin-top: 5px;
         margin-left: 5px;
+    }
+    footer{
+        margin-left: 0px;
+        width: 100%;
     }
 
     .footer-propos, .footer-apercu{
@@ -130,6 +148,11 @@
     .footer-services a, .footer-services h3,
     .footer-contactez-nous a, .footer-contactez-nous h3, .footer-contactez-nous address{
         text-align: center;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 35%;
     }
 
 }

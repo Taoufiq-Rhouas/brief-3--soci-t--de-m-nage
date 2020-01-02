@@ -41,6 +41,7 @@ img.logo {
 #elements li {
     display: inline-block;
     margin: 2%;
+    text-align: center;
 }
 
 /* Nav Bar */
@@ -113,14 +114,16 @@ ul#elements {
     margin-left: 40px;
 }
 
+.blog-section div{
+    margin-left: 17px;
+}
+
 .blog-section h3{
     color: #38ADA9;
-    /* text-indent: 37px; */
 }
 
 .blog-section p{
     color: #707070;
-    text-indent: 15px;
 }
 
 .blog-section a {
@@ -165,9 +168,10 @@ ul#elements {
     font-size: 2vw;
 }
 
-/* .cards {
-    margin-left: 40px;
-} */
+.cards {
+    margin-left: 45px;
+    height: 400px;
+}
 
 .card-1, .card-2, .card-3, .card-4{
     display: inline-block;
@@ -175,9 +179,25 @@ ul#elements {
     width: 22%;
     margin: 5px;
 }
-.card-3{
-    border: 3px solid #38ADA9 !important;
-    height: 359px;
+
+.card-1 i, .card-2 i, .card-4 i{
+    position: relative;
+    left: 50%;
+    padding-top: 20px;
+    transform: translate(-50%);
+    color: #38ADA9;
+    font-size: 20px;
+}
+
+.card-3 img{
+    position: relative;
+    left: 50%;
+    padding-top: 7px;
+    transform: translate(-50%);    
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover{
+    border: 1px solid #38ADA9 !important;
 }
 .cards .type-nettyage{
     color: #38ADA9;
@@ -186,10 +206,14 @@ ul#elements {
 }
 
 .card-header-border{
-    border-bottom: 1px solid #707070;
-    width: 55px;
+    border-bottom: 2px solid #EFEFEF;
+    width: 80px;
     position: relative;
-    left: 40%;
+    left: 33%;
+}
+
+.card-prix{
+    color: #7C7C7C;
 }
 
 .cards p, .cards h2{
@@ -217,29 +241,50 @@ ul#elements {
 /* Footer */
 footer{
     width: 100%;
-    background-color: #FAFAFA;
     margin-top: 10px;
 }
 
 footer div a , footer div h3, footer div address{
     display: block;
-    text-align: center;
+    text-align: left;
 }
-
+footer div p{
+    line-height: 1.5;
+}
 footer div h3{
     color: #5C5C5C;
     font-family: 'Poppins';
+    font-size: 14px;
 }
 
 footer div a {
     text-decoration: none;
     font-family: 'Poppins';
     color: #3E3E3E;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+footer div address{
+    line-height: 1.7;
+}
+
+footer .icons a i{
+    color: #38ada9;
+    padding-top: 10px;
+    margin-right: 10px;
+    float: left;
+    /* position: relative;
+    left: 35%; */
+
 }
 
 .footer-propos, .footer-apercu, .footer-services, 
 .footer-contactez-nous{
     width: 25%;
     float: left;
-    /* margin-right: 35px; */
+    background-color:#FAFAFA;
+    height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
