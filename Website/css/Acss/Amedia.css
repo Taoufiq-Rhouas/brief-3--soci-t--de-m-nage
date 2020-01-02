@@ -174,9 +174,11 @@
 
 /* For extra large devices */
 @media screen and (min-width: 1201px){
+    /* propos-section */
     .propos-section-2 p{
         font-size: 1vw !important;
     }
+    
 
 
 }
