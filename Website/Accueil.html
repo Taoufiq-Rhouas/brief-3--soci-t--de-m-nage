@@ -6,8 +6,10 @@
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
         <!-- <link rel="stylesheet" href="css/Acss/Astyle.css">
         <link rel="stylesheet" href="css/Acss/Amedia.css"> -->
-        <link rel="stylesheet" href="css\T-css/Tstyle.css">
-        <link rel="stylesheet" href="css\T-css/Tmedia.css">
+        <!-- <link rel="stylesheet" href="css\T-css/Tstyle.css">
+        <link rel="stylesheet" href="css\T-css/Tmedia.css"> -->
+        <link rel="stylesheet" href="css/Acss/Astyle.css">
+        <link rel="stylesheet" href="css/Acss/Amedia.css">
         <style type="text/css">
 
         	body{
@@ -568,26 +570,9 @@
 
         		/*#########################################----1_section----#########################################*/
         		#section1{
-        			padding-top: 100px !important;
+        			/*padding-top: 100px !important;*/
         		}
-        		.logo{
-        			/*position: absolute !important;*/
-        			/*margin-top: -60px !important;*/
-        			padding-top: 0px !important;
-        		}
-        		.menu-icon{
-        			/*position: absolute !important;*/
-        			/*margin-top: -60px !important;*/
-
-        			/*padding-top: 0px !important;*/
-        			margin-left: 400px;
-        			/*float: right !important;*/
-        		}
-        		#mobile-menu{
-        			margin-top: 65px !important;
-        			position: relative !important;
-        			width: 92% !important;
-        		}
+        		
         		#div-container-1section{
         			height: 700px !important;
         		}
@@ -953,7 +938,7 @@
         </script>
     </head>
     <body style="">
-        <!-- Header -->
+         <!-- Header -->
         <div class="top_menu">
             <span id="Welcome">Welcome To our Cleannn Company </span>
             <ul id="info">
@@ -961,34 +946,36 @@
                 <li> Email: <span id="email">info@cleannn.com</span></li>
             </ul>
         </div>
+        
         <!-- Border Under Top Menu -->
-        <div id="border-bottom" style="width: 100% !important;"></div>
+        <div id="border-bottom"></div>
+
         <!-- Nav Bar -->
         <nav>
-            <div><a  href="#"><img class="logo" src="img/Aimages/logo.png" alt="logo"></a></div>
+            <div><a  href="Accueil.html"><img class="logo" src="img/Aimages/logo.png" alt="logo"></a></div>
             <ul id="elements">
-                <li><a class="active" href="#">Accueil</a></li>
-                <li><a href="#">À propos de nous</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Nos Travaux </a></li>
-                <li><a href="pricing.html">Prix</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li class="requestAQuote"><a href="#"><button>Demander un devis</button></a></li>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a class="active" href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
+            <a href="#" onclick="show()" class="menu-icon"><i class="fa fa-bars"></i></a>
         </nav>
-        <a href="#" onclick="show()" class="menu-icon"><i class="fa fa-bars"></i></a>
         <!-- Mobile Menu -->
         <div>
             <ul id="mobile-menu">
-                <li><a class="active" href="#">Accueil</a></li>
-                <li><a href="#">À propos de nous</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Nos Travaux </a></li>
-                <li><a href="pricing.html">Prix</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li class="requestAQuote"><a href="#"><button>Demander un devis</button></a></li>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
         </div>
 
@@ -1384,7 +1371,7 @@
                             	<p><i>by:</i><b>John Doe</b></p>
                             </div> -->
                             <br><br><br><br>
-                            <div id="div-ul-content-div1-8section" style="">
+                            <!-- <div id="div-ul-content-div1-8section" style="">
                             	<ul style="">
 	                            	<li style="">
 	                            		<div style="">
@@ -1395,7 +1382,7 @@
 	                            		<p style=""><i>By:</i><b>John Doe</b></p>
 	                            	</li>
                             	</ul>
-                            </div>
+                            </div> -->
                             
                             
                         </div>
@@ -1406,54 +1393,74 @@
         
 
 
-       <section  style="margin-top: 100px !important;">
-       	 <!-- Footer -->
-	        <footer>
-	            <div class="footer-propos">
-	                <img src="img/Aimages/logo.png" width="60px" alt="Logo">
-	                <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage 
-	                    et de traitement: une organisation rigoureuse et fiable .</p>
-	                <p style="color: #3E3E3E">&copy; Copyright 2020 <span>Cleannn</span>,  All Right Reserved</p>
-	            </div>
+       
 
-	            <div class="footer-apercu">
-	                <h3>Aperçu rapide</h3>
-	                <a href="#">Accueil</a>
-	                <a href="propos.html">À propos de nous</a>
-	                <a href="#">services</a>
-	                <a href="#">nos oeuvres</a>
-	                <a href="prix.html">prix</a>
-	                <a href="blog.html">Blog</a>
-	                <a href="#">contact</a>
-	                <a href="#">demander un devis</a>
-	            </div>
 
-	            <div class="footer-services">
-	                <h3>Services</h3>
-	                <a href="#">Commercial Cleaning</a>
-	                <a href="#">House Cleaning</a>
-	                <a href="#">Office Cleaning</a>
-	                <a href="#">Glass Cleaning</a>
-	                <a href="#">Window Clening</a>
-	            </div>
 
-	            <div class="footer-contactez-nous">
-	                <h3>Contactez nous</h3>
-	                <address>
-	                    Phone: +212 522 22 47 05 <br>
-	                    Email: info@cleannn.com <br>
-	                    Fax: +1 342 422 5314 <br>
-	                </address>
-	                <div class="icons">
-	                    <a href="#"><i class="fa fa-facebook"></i></a>
-	                    <a href="#"><i class="fa fa-twitter"></i></a>
-	                    <a href="#"><i class="fa fa-instagram"></i></a>
-	                    <a href="#"><i class="fa fa-linkedin"></i></a>
-	                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-	                </div>
-	            </div>
-	        </footer>
-       </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- Footer -->
+        <footer style="position: relative;">
+            <div class="footer-propos">
+                <img src="img/Aimages/logo.png" width="60px" alt="Logo">
+                <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage 
+                    et de traitement: une organisation rigoureuse et fiable .</p>
+                <p style="color: #3E3E3E">&copy; Copyright 2020 <b>Cleannn</b>,  All Right Reserved</p>
+            </div>
+
+            <div class="footer-apercu">
+                <h3>Aperçu rapide</h3>
+                <a href="#">Accueil</a>
+                <a href="propos.html">À propos de nous</a>
+                <a href="#">services</a>
+                <a href="#">nos oeuvres</a>
+                <a href="prix.html">prix</a>
+                <a href="blog.html">Blog</a>
+                <a href="#">contact</a>
+                <a href="#">demander un devis</a>
+            </div>
+
+            <div class="footer-services">
+                <h3>Services</h3>
+                <a href="#">Commercial Cleaning</a>
+                <a href="#">House Cleaning</a>
+                <a href="#">Office Cleaning</a>
+                <a href="#">Glass Cleaning</a>
+                <a href="#">Window Clening</a>
+            </div>
+
+            <div class="footer-contactez-nous">
+                <h3>Contactez nous</h3>
+                <address>
+                    Phone: +212 522 22 47 05 <br>
+                    Email: info@cleannn.com <br>
+                    Fax: +1 342 422 5314 <br>
+                </address>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+        </footer>
         <!-- <section>
         	<div style="width: 100px;height: 700px;background-color: red;">
         		
