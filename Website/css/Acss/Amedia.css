@@ -49,6 +49,7 @@
     footer .icons a i{
         position: relative;
         left: 30%;
+        padding-bottom: 30px;
     }
 }
 
@@ -86,11 +87,13 @@
         display: block;
         background-color: rgb(250, 249, 249);
         z-index: 1;
+        height: 360px;
     }
     
     .block li {
         list-style-type: none;
         padding: 4px;
+        line-height: 2;
     }
     
     .block li a{
@@ -171,6 +174,8 @@
         font-size: 1vw !important;
     }
     
-
+    .propos-section{
+        height: 518px;
+    }
 
 }

@@ -135,6 +135,7 @@ ul#elements {
 
 /* ############# A Propos de nous Section ############# */
 
+
 .propos-section-2 p{
     font-size: 14px !important;
     margin-top: -7px;
@@ -241,7 +242,7 @@ ul#elements {
 /* Footer */
 footer{
     width: 100%;
-    /* position: absolute; */
+    /* position: relative; */
     bottom: 0;
 }
 
