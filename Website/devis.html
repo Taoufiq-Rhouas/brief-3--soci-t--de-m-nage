@@ -4,22 +4,26 @@
         <title>Cleannn | Devis</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
-        <link rel="stylesheet" href="css/s_css/S_Style.css">
-        <link rel="stylesheet" href="css/s_css/S_Media.css">
+        <!-- <link rel="stylesheet" href="css/s_css/S_Style.css">
+        <link rel="stylesheet" href="css/s_css/S_Media.css"> -->
+        <link rel="stylesheet" href="css/T-css/S_Style-version-T.css">
+        <link rel="stylesheet" href="css/T-css/S_Media-version-T.css">
+        <link rel="stylesheet" href="css/Acss/Astyle.css">
+        <link rel="stylesheet" href="css/Acss/Amedia.css">
     </head>
     <body>
         <!-- Header -->
-        <div class="top_menu">
+        <!-- <div class="top_menu">
             <span id="Welcome">Welcome To our Cleannn Company </span>
             <ul id="info">
                 <li>Phone: +212 522 22 47 05</li>
                 <li> Email: <span id="email">info@cleannn.com</span></li>
             </ul>
-        </div>
+        </div> -->
         <!-- Border Under Top Menu -->
-        <div id="border-bottom"></div>
+        <!-- <div id="border-bottom"></div> -->
         <!-- Nav Bar -->
-        <nav>
+        <!-- <nav>
             <div><a  href="index.html"><img class="logo" src="img/Aimages/logo.png" alt="logo"></a></div>
             <ul id="elements">
                 <li><a href="index.html">Accueil</a></li>
@@ -32,9 +36,9 @@
                 <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
             <a href="#" onclick="show()" class="menu-icon"><i class="fa fa-bars"></i></a>
-        </nav>
+        </nav> -->
         <!-- Mobile Menu -->
-        <div>
+        <!-- <div>
             <ul id="mobile-menu">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="propos.html">À propos de nous</a></li>
@@ -45,7 +49,54 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
+        </div> -->
+        <!-- Header -->
+        <div class="top_menu">
+            <span id="Welcome">Welcome To our Cleannn Company </span>
+            <ul id="info">
+                <li>Phone: +212 522 22 47 05</li>
+                <li> Email: <span id="email">info@cleannn.com</span></li>
+            </ul>
         </div>
+        
+        <!-- Border Under Top Menu -->
+        <div id="border-bottom"></div>
+
+        <!-- Nav Bar -->
+        <nav>
+            <div><a  href="Accueil.html"><img class="logo" src="img/Aimages/logo.png" alt="logo"></a></div>
+            <ul id="elements">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
+            </ul>
+            <a href="#" onclick="show()" class="menu-icon"><i class="fa fa-bars"></i></a>
+        </nav>
+        <!-- Mobile Menu -->
+        <div>
+            <ul id="mobile-menu">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
         <section>
             <h2>Devis Gratuit</h2>
             <div id="Demanderdevis">
@@ -54,27 +105,34 @@
             </div>
             <div class="form_devis">
                 <form action="" method="post">
-                    <label for="Nom">Nom * : </label><br>
-                    <input type="text" name="Nom"><br>
-                    <label for="Societe">Societé *: </label><br>
-                    <input type="text" name="Societe"><br>
-                    <label for="Adresse">Adresse *: </label><br>
-                    <input type="text" name="Adresse"><br>
-                    <label for="Tel">Tel * : </label><br>
-                    <input type="text" name="Tel"><br>
-                    <label for="Email">Email *: </label><br>
-                    <input type="text" name="Email"><br>
-                    <label for="Type_de_locaux">Type de locaux : </label><br>
-                    <input type="text" name="Type_de_locaux"><br>
-                    <label for="Commentaires">Commentaires :</label><br>
-                    <textarea name="Commentaires" id="Commentaires" cols="30" rows="10"></textarea><br>
+                    <label for="Nom" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Nom * : </label><br>
+                    <input type="text" id="Nom" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Societe" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Societé *: </label><br>
+                    <input type="text" id="Societe" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Adresse" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Adresse *: </label><br>
+                    <input type="text" id="Adresse" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Tel" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Tel * : </label><br>
+                    <input type="text" id="Tel" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Email" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Email *: </label><br>
+                    <input type="text" id="Email" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Type_de_locaux" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Type de locaux : </label><br>
+                    <input type="text" id="Type_de_locaux" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
+                    <label for="Commentaires" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Commentaires :</label><br>
+                    <textarea name="Commentaires" id="Commentaires" cols="30" rows="10" style="font-size: 20px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"></textarea><br>
                     <input type="submit" value="Envoyer">
                     <p id="Remarque ">Remarque : En cas de difficulté d'envoi du formulaire, vous pouvez nous contacter par e-mail: service.client.ns@gmail.com</p>
                 </form>
             </div>
         </div>
         </section>
-        <footer>
+
+
+
+
+
+
+
+        <!-- <footer>
             <div class="f_iteams1">
                 <img src="img/Aimages/logo.png" alt="logo">
                 <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage et de traitement: une organisation rigoureuse et fiable .</p>
@@ -119,6 +177,52 @@
                 </ul>
             </div>
 
+        </footer> -->
+        <!-- Footer -->
+        <footer style="position: relative;">
+            <div class="footer-propos">
+                <img src="img/Aimages/logo.png" width="60px" alt="Logo">
+                <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage 
+                    et de traitement: une organisation rigoureuse et fiable .</p>
+                <p style="color: #3E3E3E">&copy; Copyright 2020 <b>Cleannn</b>,  All Right Reserved</p>
+            </div>
+
+            <div class="footer-apercu">
+                <h3>Aperçu rapide</h3>
+                <a href="#">Accueil</a>
+                <a href="propos.html">À propos de nous</a>
+                <a href="#">services</a>
+                <a href="#">nos oeuvres</a>
+                <a href="prix.html">prix</a>
+                <a href="blog.html">Blog</a>
+                <a href="#">contact</a>
+                <a href="#">demander un devis</a>
+            </div>
+
+            <div class="footer-services">
+                <h3>Services</h3>
+                <a href="#">Commercial Cleaning</a>
+                <a href="#">House Cleaning</a>
+                <a href="#">Office Cleaning</a>
+                <a href="#">Glass Cleaning</a>
+                <a href="#">Window Clening</a>
+            </div>
+
+            <div class="footer-contactez-nous">
+                <h3>Contactez nous</h3>
+                <address>
+                    Phone: +212 522 22 47 05 <br>
+                    Email: info@cleannn.com <br>
+                    Fax: +1 342 422 5314 <br>
+                </address>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
         </footer>
         <!-- Scripts for importing only -->
         <script src="js/Ajs/Ascript.js"></script>
