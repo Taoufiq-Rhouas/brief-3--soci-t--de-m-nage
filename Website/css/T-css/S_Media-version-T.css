@@ -67,6 +67,10 @@
     .form_devis {
         width: 100%;
     }
+    .form_devis form {
+	    width: 100% !important;
+	    /*background-color: yellow;*/
+	}
     .img_promo {
         margin: auto;
         width: 70%;
@@ -118,6 +122,18 @@
     footer{
         flex-direction: column;
     }
+    .img_promo {
+	    
+	    width: 100% !important;
+	    /*background-color: white;*/
+	    /*margin: auto;*/
+	}
+    .img_promo img {
+	    
+	    /*padding: auto !important;*/
+	    margin-left: 0% !important;
+	    float: none;
+	}
 }
 
 /* For medium devices */
@@ -132,5 +148,61 @@
 
 /* For extra large devices */
 @media screen and (min-width: 1201px){
+
+}
+@media screen and (max-width: 1790px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 5%;
+}
+@media screen and (max-width: 1560px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 6%;
+}
+@media screen and (max-width: 1530px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 7%;
+}
+@media screen and (max-width: 1500px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 8%;
+}
+@media screen and (max-width: 1450px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 9%;
+}
+@media screen and (max-width: 1415px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 10%;
+}
+@media screen and (max-width: 1400px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    margin-left: 11%;
+}
+@media screen and (max-width: 1220px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    /*margin: auto !important;*/
+    /*margin-left: 0%;*/
+}
+@media screen and (max-width: 1245px){
+	.form_devis form {
+    /*margin: 0% 34% 0% 1% !important;*/
+    margin: auto !important;
+    /*margin-right: 60%;*/
+}
 
 }

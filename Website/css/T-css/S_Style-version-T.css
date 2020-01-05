@@ -1,6 +1,8 @@
 /* main style*/
 body{
     font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -101,24 +103,44 @@ h2 {
     text-align: center;
     color: #38ADA9;
 }
+.img_promo {
+    width: 40%;
+    background-color: white;
+}
+.form_devis {
+    width: 60%;
+    background-color: transparent;
+}
 .img_promo img {
-    height: 50%;
+    /*width: 50%;*/
+    height: 70%;
+    /*float: right;*/
+    float: left;
+    margin-left: 25%;
+    /*margin: auto;*/
+}
+.form_devis form {
+    width: 65%;
+    /*margin: auto auto auto 5%;*/
+    /*margin-left: 5%;*/
+    background-color: transparent;
+    /*background-color: yellow;*/
+    margin: 0% 35% 0% 0%;
+    /*margin-right: 60%;*/
 }
 #Demanderdevis {
     display: flex;
     justify-content: center;
 }
 
-.form_devis {width: 50%;}
+
 
 
 input[type="text"] {
     width: 100%;
 }
 
-.img_promo {
-    width: 15%;
-}
+
 textarea#Commentaires {
     width: 100%;
 }
