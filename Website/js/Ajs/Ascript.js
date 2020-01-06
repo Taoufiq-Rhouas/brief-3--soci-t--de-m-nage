@@ -1,6 +1,6 @@
 function show() {
     var mobileMenu = document.getElementById("mobile-menu");
-    
+
     if (mobileMenu.style.display == "block") {
         mobileMenu.style.display = "none";
         mobileMenu.classList.toggle("block");
@@ -9,3 +9,4 @@ function show() {
         mobileMenu.classList.toggle("block");
     }
 }
+
