@@ -100,6 +100,8 @@
 
     figcaption {
         text-align: center;
+        font-size: 20px;
+        font-weight: bold;
     }
     
     /* Services En Vedette */
@@ -195,5 +197,12 @@
     footer .icons a i{
         position: relative;
         left: 35%;
+    }
+}
+
+/* For hidding block menu on large screen */
+@media screen and (min-width: 768px){
+    #mobile-menu{
+        display: none !important;
     }
 }

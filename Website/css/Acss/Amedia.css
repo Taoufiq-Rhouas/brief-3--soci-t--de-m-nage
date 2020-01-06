@@ -102,14 +102,13 @@
         
     }
     #mobile-menu{
-        /* margin-top: 65px !important; */
         position: relative;
-        /* width: 100% !important; */
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 992px){
+
     .blog-image{
         margin-left: 0px;
         width: 100%;
@@ -183,4 +182,19 @@
         font-size: 19px !important;
     }
 
+    .blog-section div h3{
+        font-size: 20px;
+    }
+
+    .blog-section div p{
+        font-size: 20px;
+    }
+
+}
+
+/* For hidding block menu on large screen */
+@media screen and (min-width: 768px){
+    #mobile-menu{
+        display: none !important;
+    }
 }
