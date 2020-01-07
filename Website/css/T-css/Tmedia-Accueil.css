@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px){
+    /*#########################################----1_section----#########################################*/
+    #div-container-1section{
+        height: 700px !important;
+    }
+    #div-filter-1section{
+        height: 700px !important;
+    }
+    #div-h1_p_a-1section h1{
+        font-size: 40px !important;
+        width: 85% !important;
+    }
+    #div-h1_p_a-1section p{
+        font-size: 14px !important;
+        width: 85% !important;
+    }
+    #div-h1_p_a-1section{
+        position: relative !important;
+        padding-top: 50px !important;
+        width: 80% !important;
+    }
+    /*#########################################----2_section----#########################################*/
+    #div-container-2section{
+        display: block;
+        width: 100%;
+    }
+    .h1-all-section{
+        margin-top: 15% !important;
+        margin-bottom: 15% !important;
+    }
+    /*#########################################----3_section----#########################################*/
+    /*#########################################----4_section----#########################################*/
+    #div-container-4section{
+        display: list-item !important;
+    }
+    #img-section4{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    /*#########################################----5_section----#########################################*/
+    #div-container-5section{
+        display: list-item !important;
+    }
+    #section5{
+        padding-bottom: 280px !important;
+    }
+    #a-5section{
+        margin-left: 120px !important;
+        margin-top: 60px;
+    }
+    #div-container-5section p{
+        text-align: center;
+    }
+    /*#########################################----6_section----#########################################*/
+    #div-container-6section{
+        display: list-item !important;
+        padding-bottom: 40px;
+    }
+    /*#########################################----7_section----#########################################*/
+    /*#########################################----8_section----#########################################*/
+    #content1-8section{
+        display:list-item !important;
+    }
+    #section8{
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 1276px){
+    /*#########################################----3_section----#########################################*/
+    #div-container-3section{
+        display: list-item;
+    }
+
+}
