@@ -10,6 +10,109 @@
         <link rel="stylesheet" href="css/T-css/S_Media-version-T.css">
         <link rel="stylesheet" href="css/Acss/Astyle.css">
         <link rel="stylesheet" href="css/Acss/Amedia.css">
+        <style type="text/css">
+            .label{
+                font-size: 14px;
+                font-family: Poppins Light;
+                color: #7C7C7C;
+            }
+            .input-t{
+                font-size: 14px;
+                font-family: Poppins Light;
+                color: #2c3e50;
+                border-radius: 6px;
+            }
+            .textarea{
+                font-size: 20px;
+                font-family: Poppins Light;
+                color: #2c3e50;
+                border-radius: 6px;
+            }
+        </style>
+        <script type="text/javascript">
+            function valider(){
+                // *******nom******
+                var Nom = document.getElementById('Nom');
+                if (Nom.value=="") {
+                    document.getElementById('spanNom').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanNom').style.color="red";
+                }
+                else{
+                    document.getElementById('spanNom').innerHTML = "";
+                }
+                // *******societé******
+                var societé = document.getElementById('Societe');
+                if (societé.value=="") {
+                    document.getElementById('spanSociete').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanSociete').style.color="red";
+                }
+                else{
+                    document.getElementById('spanSociete').innerHTML = "";
+                }
+                // *******Adresse******
+                var adresse = document.getElementById('Adresse');
+                if (adresse.value=="") {
+                    document.getElementById('spanAdresse').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanAdresse').style.color="red";
+                }
+                else{
+                    document.getElementById('spanAdresse').innerHTML = "";
+                }
+                // *******tele******
+                var telephone= document.getElementById('Tel');
+                var a = /^(\+212)+([5-7]{1})+([0-9]{8})$/;        
+  
+                if ( telephone.value == "")
+                {
+                    document.getElementById('spanTel').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanTel').style.color="red";
+                }
+                else if (!a.test(telephone.value))
+                {
+                    document.getElementById('spanTel').innerText="Erreur";
+                    document.getElementById('spanTel').style.color="red";
+
+                }
+                else
+                {
+                    document.getElementById('spanTel').innerHTML="";
+                }
+                // *******email******
+                var Email=document.getElementById('Email');
+                // var e = /^\[A-Za-z0-9]{*}+([@]{1})+([A-Za-z]{*})+([.]{1})+([A-Za-z]{3})$/;
+                // var e = /^([A-Za-z]{*})+([@])+([A-Za-z]{*})+([.])+([A-Za-z]{*})$/;
+                if (Email.value=="")
+                {
+                    document.getElementById('spanEmail').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanEmail').style.color="red";
+                }
+                else if (Email.value.indexOf('@')==-1)
+                {
+                    document.getElementById('spanEmail').innerText="Erreur ";
+                    document.getElementById('spanEmail').style.color="red";
+                }
+                // else if (!e.test(Email.value))
+                // {
+                //     document.getElementById('spanEmail').innerText="Erreur";
+                //     document.getElementById('spanEmail').style.color="red";
+
+                // }
+                else{
+                    document.getElementById('spanEmail').innerHTML="";
+                }
+                // *******type locaux******
+                var locaux= document.getElementById('Type_de_locaux');
+                if ( locaux.value == "")
+                {
+                    document.getElementById('spanlocaux').innerText="Le champs doit etre remplir";
+                    document.getElementById('spanlocaux').style.color="red";
+                }
+                else
+                {
+                    document.getElementById('spanlocaux').innerHTML="";
+                }
+            }
+        </script>
     </head>
     <body>
         <!-- Header -->
@@ -106,22 +209,31 @@
                </center>
             </div>
             <div class="form_devis">
-                <form action="" method="post">
-                    <label for="Nom" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Nom * : </label><br>
-                    <input type="text" id="Nom" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Societe" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Societé *: </label><br>
-                    <input type="text" id="Societe" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Adresse" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Adresse *: </label><br>
-                    <input type="text" id="Adresse" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Tel" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Tel * : </label><br>
-                    <input type="text" id="Tel" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Email" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Email *: </label><br>
-                    <input type="text" id="Email" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Type_de_locaux" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Type de locaux : </label><br>
-                    <input type="text" id="Type_de_locaux" style="font-size: 14px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"><br>
-                    <label for="Commentaires" style="font-size: 14px;font-family: Poppins Light;color: #7C7C7C;">Commentaires :</label><br>
-                    <textarea name="Commentaires" id="Commentaires" cols="30" rows="10" style="font-size: 20px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;"></textarea><br>
-                    <input type="submit" value="Envoyer">
+                <!-- <form action="" method="post"> -->
+                <form>
+                    <label class="label">Nom : </label>
+                    <span id="spanNom"></span> <br>
+                    <input class="input-t" type="text" id="Nom"><br>
+                    <label class="label">Societé : </label>
+                    <span id="spanSociete"></span><br>
+                    <input class="input-t" type="text" id="Societe"><br>
+                    <label class="label">Adresse : </label>
+                    <span id="spanAdresse"></span><br>
+                    <input class="input-t" type="text" id="Adresse"><br>
+                    <label class="label">Tel : </label>
+                    <span id="spanTel"></span><br>
+                    <input class="input-t" type="text" id="Tel"><br>
+                    <label class="label">Email : </label>
+                    <span id="spanEmail"></span><br>
+                    <input class="input-t" type="text" id="Email"><br>
+                    <label class="label">Type de locaux : </label>
+                    <span id="spanlocaux"></span><br>
+                    <input class="input-t" type="text" id="Type_de_locaux"><br>
+                    <label class="label">Commentaires :</label>
+                    <span id="spanCommentaires"></span><br>
+                    <textarea class="textarea" name="Commentaires" id="Commentaires" cols="30" rows="10"></textarea><br>
+                    <!-- <input type="submit" value="Envoyer"> -->
+                    <input type="button" id="env" value="Envoyer" onclick="valider()">
                     <p id="Remarque ">Remarque : En cas de difficulté d'envoi du formulaire, vous pouvez nous contacter par e-mail: service.client.ns@gmail.com</p>
                 </form>
             </div>
