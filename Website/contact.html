@@ -246,17 +246,28 @@
                 if (Email.value=="") {
                     document.getElementById('spanEmail').innerText = "Le champs doit etre remplir";
                 }
+<<<<<<< HEAD
+=======
+                else if (Email.value.indexOf('@')==-1)
+                {
+                    document.getElementById('spanEmail').innerText="Erreur ";
+                    document.getElementById('spanEmail').style.color="red";
+                }
+>>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
                 // else if (!e.test(Email.value))
                 // {
                 //     document.getElementById('spanEmail').innerText="Erreur";
                 //     document.getElementById('spanEmail').style.color="red";
 
                 // }
+<<<<<<< HEAD
                 else if (Email.value.indexOf('@')==-1)
                 {
                     document.getElementById('spanEmail').innerText="Erreur ";
                     document.getElementById('spanEmail').style.color="red";
                 }
+=======
+>>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
                 else{
                     document.getElementById('spanEmail').innerText = "";
                 }
