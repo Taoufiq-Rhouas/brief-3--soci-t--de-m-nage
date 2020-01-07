@@ -222,6 +222,65 @@
 
             
         </style>
+        <script type="text/javascript">
+            function valider(){
+                // ##########validation nom ###########
+                var Nom = document.getElementById('Nom');
+                if (Nom.value=="") {
+                    document.getElementById('spanNom').innerText = "Le champs doit etre remplir";
+                }
+                else{
+                    document.getElementById('spanNom').innerText = "";
+                }
+                // ##########validation prenom ###########
+                var Prenom = document.getElementById('Prenom');
+                if (Prenom.value=="") {
+                    document.getElementById('spanPrenom').innerText = "Le champs doit etre remplir";
+                }
+                else{
+                    document.getElementById('spanPrenom').innerText = "";
+                }
+                // ##########validation email ###########
+                var Email = document.getElementById('Email');
+                // var e = /^(\[A-Za-z]{*})+([5-7]{1})+([0-9]{8})$/;
+                if (Email.value=="") {
+                    document.getElementById('spanEmail').innerText = "Le champs doit etre remplir";
+                }
+                else if (Email.value.indexOf('@')==-1)
+                {
+                    document.getElementById('spanEmail').innerText="Erreur ";
+                    document.getElementById('spanEmail').style.color="red";
+                }
+                // else if (!e.test(Email.value))
+                // {
+                //     document.getElementById('spanEmail').innerText="Erreur";
+                //     document.getElementById('spanEmail').style.color="red";
+
+                // }
+                else{
+                    document.getElementById('spanEmail').innerText = "";
+                }
+                // ##########validation Telephone ###########
+                var Telephone = document.getElementById('Telephone');
+                var a = /^(\+212)+([5-7]{1})+([0-9]{8})$/;
+                if (Telephone.value=="") {
+                    document.getElementById('spanTel').innerText = "Le champs doit etre remplir";
+                }
+                else if (!a.test(Telephone.value))
+                {
+                    document.getElementById('spanTel').innerText="Erreur";
+                    document.getElementById('spanTel').style.color="red";
+
+                }
+                else
+                {
+                    document.getElementById('spanTel').innerHTML="";
+                }
+                // else{
+                //     document.getElementById('spanTel').innerText = "";
+                // }
+            }
+        </script>
     </head>
     <body style="">
         <!-- Header -->
@@ -307,35 +366,41 @@
                     <div id="div-container-3section">
                         <div id="content1-3section" style="display: flex;justify-content: center;">
                             <div id="content1-nom-4section" style="margin-right: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Nom *</label><span style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c">cc</span> <br><br>
-                                <input type="text" name="" placeholder="Nom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Nom :</label>
+                                <span id="spanNom" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
+                                <input type="text" id="Nom" placeholder="Nom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
                             </div>
                             <div id="content1-preno-4section" style="margin-left: 100px;width: 25%">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Prénom *</label><br><br>
-                                <input type="text" name="" placeholder="Prénom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Prénom :</label>
+                                <span id="spanPrenom" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
+                                <input type="text" id="Prenom" placeholder="Prenom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
                             </div>
                         </div>
                         <div id="content2-3section" style="display: flex;justify-content: center;margin-top: 40px;">
                             <div id="content1-email-4section" style="margin-right: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Email *</label><br><br>
-                                <input type="text" name="" placeholder="Ex:email@gmail.com" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Email :</label>
+                                <span id="spanEmail" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
+                                <input type="text" id="Email" placeholder="Ex:email@gmail.com" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
                             </div>
                             <div id="content1-object-4section" style="margin-left: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Telephone *</label><br><br>
-                                <input type="text" name="" placeholder="Ex:+2126123456" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Telephone :</label>
+                                <span id="spanTel" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
+                                <input type="text" id="Telephone" placeholder="Ex:+2126123456" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
                             </div>
                         </div>
                         <div  id="content3-3section" style="justify-content: center;margin-top: 40px;">
                             <center>
                                 <div style="width: 60%;">
-                                    <label style="float: left; font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Message *</label><br><br>
+                                    <label style="float: left; font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Message :</label>
+                                    <span id="spanMessage" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
                                     <textarea placeholder="Message" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;height: 300px;"></textarea>
                                 </div>
                             </center>
                             
                         </div>
                         <div  id="content4-3section" style="margin-top: 40px;padding-bottom: 100px;">
-                            <a href="#" style="font-size: 39px;font-family: Poppins Medium;color: #FFFFFF;text-decoration: none; background-color: #38ADA9;padding: 25px 150px 25px 150px;border-radius: 35px;">Envoyer</a>
+                            <!-- <a href="#" style="font-size: 39px;font-family: Poppins Medium;color: #FFFFFF;text-decoration: none; background-color: #38ADA9;padding: 25px 150px 25px 150px;border-radius: 35px;">Envoyer</a> -->
+                            <input type="button" id="" value="Envoyer" onclick="valider()" style="font-size: 39px;font-family: Poppins Medium;color: #FFFFFF;text-decoration: none; background-color: #38ADA9;padding: 25px 150px 25px 150px;border-radius: 35px;">
                         </div>
                         
                     </div>
