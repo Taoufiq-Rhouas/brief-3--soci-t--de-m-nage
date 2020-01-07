@@ -22,6 +22,8 @@
     .propos-section .propos-section-2 p{
         text-align: center;
     }
+
+
     .cards-title{
         font-size: 23px !important;
     }
@@ -102,14 +104,13 @@
         
     }
     #mobile-menu{
-        /* margin-top: 65px !important; */
         position: relative;
-        /* width: 100% !important; */
     }
 }
 
 /* For medium devices */
 @media screen and (max-width: 992px){
+
     .blog-image{
         margin-left: 0px;
         width: 100%;
@@ -137,7 +138,8 @@
         margin-top: 5px;
         margin-left: 5px;
     }
-
+    
+    /* Footer */
     footer{
         margin-left: 0px;
         width: 100%;
@@ -182,4 +184,19 @@
         font-size: 19px !important;
     }
 
+    .blog-section div h3{
+        font-size: 20px;
+    }
+
+    .blog-section div p{
+        font-size: 20px;
+    }
+
+}
+
+/* For hidding block menu on large screen */
+@media screen and (min-width: 768px){
+    #mobile-menu{
+        display: none !important;
+    }
 }

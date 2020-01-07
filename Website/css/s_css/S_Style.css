@@ -1,8 +1,8 @@
-/* main style*/
-body{
-    font-family: 'Poppins';
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
-
 
 /* Top Menu */
 .top_menu {
@@ -44,6 +44,7 @@ img.logo {
 #elements li {
     display: inline-block;
     margin: 2%;
+    text-align: center;
 }
 
 /* Nav Bar */
@@ -52,6 +53,7 @@ nav {
     align-items: center;
     margin: auto;
     width: 80%;
+    text-align: center;
 }
 
 ul#elements {
@@ -96,7 +98,9 @@ ul#elements {
 /* Mobile Menu */
 #mobile-menu{
     display: none;
+    margin-top: -1px;
 }
+
 h2 {
     text-align: center;
     color: #38ADA9;
@@ -150,8 +154,11 @@ input[type="submit"] {
 figcaption {
     color: #38ada9;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+/* Comment_Nous_Travaillons */
 .Comment_Nous_Travaillons {
     display: flex;
     justify-content: center;
@@ -167,31 +174,54 @@ figcaption {
     width: 100%;
 }
 
-/* Footer **/
-.f_iteams img {
-    height: 90px;
+/* Footer */
+footer{
+    width: 100%;
+    /* position: relative; */
+    bottom: 0;
 }
-footer li {
-    list-style: none;
+
+footer div a , footer div h3, footer div address{
+    display: block;
+    text-align: left;
 }
-.f_iteams1 img {
-    height: 90px;
+footer div p{
+    line-height: 1.5;
 }
-footer {
-    display: flex;
+footer div h3{
+    color: #5C5C5C;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+footer div a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: #3E3E3E;
     font-size: 13px;
-    justify-content: center;
-    background-color: #FAFAFA;
+    line-height: 1.6;
 }
-.f_iteams1 {
-    width: 30%;
+
+footer div address{
+    line-height: 1.7;
 }
-.f_iteams {
-    width: 20%;
+
+footer .icons a i{
+    color: #38ada9;
+    padding-top: 10px;
+    margin-right: 10px;
+    float: left;
+    /* position: relative;
+    left: 35%; */
+
 }
-footer h3 {
-    text-align: center;
-}
-li.social_media {
-    color: #38ADA9;
+
+.footer-propos, .footer-apercu, .footer-services, 
+.footer-contactez-nous{
+    width: 25%;
+    float: left;
+    background-color:#FAFAFA;
+    height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
