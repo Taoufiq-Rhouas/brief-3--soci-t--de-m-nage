@@ -108,6 +108,14 @@ h2 {
     text-align: center;
     color: #38ADA9;
 }
+
+#blog-blogPage{
+    font-family: 'Poppins Medium';
+    color: #38ADA9;
+    font-size: 36px;
+    text-align: center;
+}
+
 .img_promo img {
     height: 50%;
 }

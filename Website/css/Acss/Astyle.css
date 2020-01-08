@@ -107,6 +107,13 @@ ul#elements {
 }
 
 /* ############# Blog Section ############# */
+#blog-blogPage{
+    font-family: 'Poppins Medium';
+    color: #38ADA9;
+    font-size: 36px;
+    text-align: center;
+}
+
 .blog-image{
     width: 95%;
     height: 380px;
