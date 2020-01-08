@@ -1,0 +1,111 @@
+@media screen and (max-width: 1240px){
+    /*#########################################----2_section----#########################################*/
+    #div-container-2section{
+        display: list-item !important;
+    }
+     #content1-2section div{
+        float: none !important;
+        padding-right: 0px !important;
+    }
+    #content1-2section div img{
+        justify-content: center !important;
+    }
+    #content2-2section{
+        width: 100% !important;
+        background-color: #FAFAFA !important;
+    }
+    #content2-2section div{
+        float: none !important;
+    }
+    #content1-2section{
+         width: 90% !important;
+    }
+    #div1-content2-2section{
+        width: 90% !important;
+        padding-left: 0px !important;
+        padding: 10px !important;
+    }
+
+    /*#########################################----3_section----#########################################*/
+    #div-container-3section{
+        display: list-item !important;
+    }
+     #content1-3section div{
+        float: none !important;
+        padding-right: 0px !important;
+    }
+    #content1-3section div img{
+        /*width: 10% !important;*/
+        justify-content: center !important;
+    }
+    #content2-3section{
+        width: 100% !important;
+        background-color: white !important;
+    }
+    #content2-3section div{
+        float: none !important;
+    }
+    #content1-3section{
+         width: 90% !important;
+    }
+    #div1-content2-3section{
+        width: 90% !important;
+        padding-left: 0px !important;
+        padding: 10px !important;
+    }
+
+    /*#########################################----4_section----#########################################*/
+    #div-container-4section{
+        display: list-item !important;
+    }
+    #content1-4section div{
+        float: none !important;
+        padding-right: 0px !important;
+    }
+    #content1-4section div img{
+        justify-content: center !important;
+    }
+    #content2-4section{
+        width: 100% !important;
+        background-color: #FAFAFA !important;
+    }
+    #content2-4section div{
+        float: none !important;
+    }
+    #content1-4section{
+         width: 90% !important;
+    }
+    #div1-content2-4section{
+        width: 90% !important;
+        padding-left: 0px !important;
+        padding: 10px !important;
+    }
+
+    /*#########################################----5_section----#########################################*/
+    #div-container-5section{
+        display: list-item !important;
+    }
+     #content1-5section div{
+        float: none !important;
+        padding-right: 0px !important;
+    }
+    #content1-5section div img{
+        justify-content: center !important;
+    }
+    #content2-5section{
+        width: 100% !important;
+        background-color: white !important;
+    }
+    #content2-5section div{
+        float: none !important;
+    }
+    #content1-5section{
+         width: 90% !important;
+    }
+    #div1-content2-5section{
+        width: 90% !important;
+        padding-left: 0px !important;
+        padding: 10px !important;
+    }
+}
+                

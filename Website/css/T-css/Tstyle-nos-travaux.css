@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.h1-all-section{
+    font-family: 'Poppins' Medium;
+    color: #38ADA9;
+    font-size: 36px;
+}
+.h1-section{
+    font-family: 'Poppins' Medium;
+    color: #38ADA9;
+    font-size: 36px;
+    padding-top: 3%;
+    padding-bottom: 5px;
+    margin-bottom: 40px !important;
+    margin: 0px;
+}
+.h2-all-section{
+    font-family: Poppins Medium;
+    color: #38ADA9;
+    font-size: 22px;
+}
+.p-all-section{
+        font-family: Poppins Light;
+        color: #3E3E3E;
+        font-size: 14px;
+}
+
+/*#########################################----1_section----#########################################*/
+#section1{
+    width: 100% !important;
+}
+#content1-1section{
+    margin-bottom: 0px !important;
+}
+
+/*#########################################----2_section----#########################################*/
+#section2{
+    background-color: #FAFAFA;
+    padding-bottom: 60px;
+}
+#div-container-2section{
+    display: flex;
+    background-color:  #FAFAFA;
+}
+#content1-2section{
+    width: 50%;
+    background-color:  #FAFAFA
+}
+#div1-content1-2section{
+    float: right;
+    padding-right: 20px;
+    background-color:  #FAFAFA;
+}
+#div1-content1-2section img{
+    width: 100%;
+}
+#content2-2section{
+    width: 50%;
+    background-color: white
+}
+#div1-content2-2section{
+    text-align: left;
+    width: 65%;
+    float: left;
+    padding: 10px 10px 10px 40px; 
+    background-color: white;
+}
+
+/*#########################################----3_section----#########################################*/
+#section3{
+    background-color: white;
+    padding-bottom: 60px;
+}
+#div-container-3section{
+    display: flex;
+    background-color:  white;
+}
+#content1-3section{
+    width: 50%;
+    background-color:  white;
+}
+#div1-content1-3section{
+    float: right;
+    padding-right: 20px;
+    background-color:  white;
+}
+#div1-content1-3section img{
+    width: 100%;
+}
+#content2-3section{
+    width: 50%;
+    background-color: #FAFAFA;
+}
+#div1-content2-3section{
+    text-align: left;
+    width: 65%;
+    float: left;
+    padding: 10px 10px 10px 40px; 
+    background-color: #FAFAFA;
+}
+
+/*#########################################----4_section----#########################################*/
+#section4{
+    background-color: #FAFAFA;
+    padding-bottom: 60px;
+}
+#div-container-4section{
+    display: flex;
+    background-color:  #FAFAFA;
+}
+#content1-4section{
+    width: 50%;
+    background-color:  #FAFAFA
+}
+#div1-content1-4section{
+    float: right;
+    padding-right: 20px;
+    background-color:  #FAFAFA;
+}
+#div1-content1-4section img{
+    width: 100%;
+}
+#content2-4section{
+    width: 50%;
+    background-color: white
+}
+#div1-content2-4section{
+    text-align: left;
+    width: 65%;
+    float: left;
+    padding: 10px 10px 10px 40px; 
+    background-color: white;
+}
+
+/*#########################################----5_section----#########################################*/
+#section5{
+    background-color: white;
+}
+#div-container-5section{
+    display: flex;
+    background-color:  white;
+}
+#content1-5section{
+    width: 50%;
+    background-color:  white;
+}
+#div1-content1-5section{
+    float: right;
+    padding-right: 20px;
+    background-color:  white;
+}
+#div1-content1-5section img{
+    width: 100%;
+}
+#content2-5section{
+    width: 50%;
+    background-color: #FAFAFA;
+}
+#div1-content2-5section{
+    text-align: left;
+    width: 65%;
+    float: left;
+    padding: 10px 10px 10px 40px; 
+    background-color: #FAFAFA;
+}
+              
+
+
+
+
+
+
+                
