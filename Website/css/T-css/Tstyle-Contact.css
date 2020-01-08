@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.h1-all-section{
+    font-family: Poppins Medium;
+    color: #38ADA9;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+/*#########################################----1_section----#########################################*/
+#section1{
+    width: 100% !important;
+}
+#content1-1section{
+    background-color: white;
+    margin-bottom: 0px !important;
+    padding-bottom: 5%;
+}
+#content2-1section{
+    position: relative; 
+    width: 100% !important;
+    margin-top: 0px !important;
+}
+
+/*#########################################----2_section----#########################################*/
+#section2{
+    padding-bottom: 40px;
+}
+#div-container-2section{
+    display: flex;
+    padding: 0% 20% 0% 20%;
+}
+#content1-2section{
+    float: left;
+    text-align: left;
+}
+#content1-2section h1{
+    font-size: 36px;
+    font-family: Poppins Medium;
+    color: #38ADA9;
+}
+#content1-2section p{
+    width: 80%;
+    font-family: Poppins Light;
+    color: #3E3E3E
+}
+#content2-2section{
+    float: right;
+    text-align: left;
+    width: 100%;
+}
+#div-g-content2-2section{
+    float: right;
+}
+#div-g-content2-2section h1{
+    font-size: 36px;
+    font-family: Poppins Medium;
+    color: #38ADA9;
+}
+#div1-content2-2section{
+    display: flex;
+    text-align: left;
+}
+#div1-content2-2section img{
+    width: 50px;
+    height: 50px;
+}
+#div1-content2-2section p{
+    padding-left: 10px;
+    font-family: Poppins;
+    color: #7C7C7C;
+}
+#div2-content2-2section{
+    display: flex;
+    margin-top: 10px;
+}
+#div2-content2-2section img{
+    width: 50px;
+    height: 50px;
+}
+#div2-content2-2section p{
+    padding-left: 10px;
+    font-family: Poppins;
+    color: #7C7C7C
+}
+
+/*#########################################----3_section----#########################################*/
+.label-section-3{
+    float: left;
+    font-size: 18px;
+    font-family: Poppins Light;
+    color: #7C7C7C;
+}
+.span-section-3{
+    float: left;
+    font-size: 18px;
+    font-family: Poppins Light;
+    color: #e74c3c;
+}
+.input-section-3{
+    font-size: 18px;
+    font-family: Poppins Light;
+    color: #2c3e50;
+    border-radius: 6px;
+    width: 100%;
+    float: left;
+}
+#content1-3section{
+    display: flex;
+    justify-content: center;
+}
+#content2-3section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#content3-3section{
+    justify-content: center;
+    margin-top: 40px;
+}
+#content4-3section{
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+#content1-nom-3section{
+    margin-right: 100px;
+    width: 25%;
+}
+#content1-preno-3section{
+    margin-left: 100px;
+    width: 25%;
+}
+#content1-email-3section{
+    margin-right: 100px;
+    width: 25%;
+}
+#content1-object-3section{
+    margin-left: 100px;
+    width: 25%;
+}
+#content1-message-3section{
+    width: 60%;
+}
+#textarea-3section{
+    font-size: 18px;
+    font-family: Poppins Light;
+    color: #2c3e50;
+    border-radius: 6px;
+    width: 100%;
+    height: 300px;
+}
+#button-3section{
+    font-size: 39px;
+    font-family: Poppins Medium;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #38ADA9;
+    padding: 25px 150px 25px 150px;
+    border-radius: 35px;
+}

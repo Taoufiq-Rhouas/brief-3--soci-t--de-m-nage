@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px){
+    /*#########################################----1_section----#########################################*/
+
+    /*#########################################----2_section----#########################################*/
+    #section2{
+    padding-bottom: 30px !important;
+    }
+    #div-container-2section{
+        display: list-item !important;
+        padding: 0% 10% 0% 10% !important;
+    }
+    #content1-2section p{
+        width: 100% !important;
+    }
+    #content2-2section div{
+        float: left !important;
+    }
+
+    /*#########################################----3_section----#########################################*/
+    #section3{
+        padding-top: 550px;
+    }
+    #content1-3section{
+        display: list-item !important;
+    }
+    #content2-3section{
+        display: list-item !important;
+    }
+    #content1-nom-3section{
+        width: 80% !important;
+        margin-right: 0px !important;
+        padding-bottom: 90px !important;
+    }
+    #content1-preno-3section{
+        width: 80% !important;
+        margin-left: 0px !important;
+        padding-bottom: 50px !important;
+    }
+    #content1-email-3section{
+        width: 80% !important;
+        margin-right: 0px !important;
+        padding-bottom: 100px !important;
+    }
+    #content3-3section div{
+        width: 80% !important;
+    }
+    #content1-object-3section{
+        width: 80% !important;
+        margin-left: 0px !important;
+        padding-bottom: 50px !important;
+    }
+}

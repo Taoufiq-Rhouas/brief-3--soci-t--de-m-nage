@@ -4,224 +4,10 @@
         <title>Cleannn | Accueil</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
-        <!-- <link rel="stylesheet" href="css\T-css/Tstyle.css">
-        <link rel="stylesheet" href="css\T-css/Tmedia.css"> -->
+        <link rel="stylesheet" href="css/T-css/Tstyle-Contact.css">
+        <link rel="stylesheet" href="css/T-css/Tmedia-Contact.css">
         <link rel="stylesheet" href="css/Acss/Astyle.css">
         <link rel="stylesheet" href="css/Acss/Amedia.css">
-        <style type="text/css">
-
-            body{
-                margin: 0;
-                padding: 0;
-            }
-            .h1-all-section{
-                font-family: Poppins Medium;
-                color: #38ADA9;
-                font-size: 36px;
-                /*padding-top: 5%;*/
-                /*padding-bottom: 5px;*/
-                margin-bottom: 0px;
-                /*margin: 0px;*/
-            }
-
-            /*#########################################----1_section----#########################################*/
-            #section1{
-                width: 100% !important;
-            }
-            #content1-1section{
-                background-color: white;
-                margin-bottom: 0px !important;
-                padding-bottom: 5%;
-            }
-            #content2-1section{
-                position: relative; 
-                width: 100% !important;
-                margin-top: 0px !important;
-            }
-            /*#########################################----2_section----#########################################*/
-            #section2{
-                padding-bottom: 40px;
-            }
-            #div-container-2section{
-                display: flex;
-                padding: 0% 20% 0% 20%;
-            }
-            #content1-2section{
-                float: left;
-                text-align: left;
-            }
-            #content1-2section h1{
-                font-size: 36px;
-                font-family: Poppins Medium;
-                color: #38ADA9;
-            }
-            #content1-2section p{
-                width: 80%;
-                font-family: Poppins Light;
-                color: #3E3E3E
-            }
-            #content2-2section{
-                float: right;
-                text-align: left;
-                width: 100%;
-            }
-            #div-g-content2-2section{
-                float: right;
-            }
-            #div-g-content2-2section h1{
-                font-size: 36px;
-                font-family: Poppins Medium;
-                color: #38ADA9;
-            }
-            #div1-content2-2section{
-                display: flex;
-                text-align: left;
-            }
-            #div1-content2-2section img{
-                width: 50px;
-                height: 50px;
-            }
-            #div1-content2-2section p{
-                padding-left: 10px;
-                font-family: Poppins;
-                color: #7C7C7C;
-            }
-            #div2-content2-2section{
-                display: flex;
-                margin-top: 10px;
-            }
-            #div2-content2-2section img{
-                width: 50px;
-                height: 50px;
-            }
-            #div2-content2-2section p{
-                padding-left: 10px;
-                font-family: Poppins;
-                color: #7C7C7C
-            }
-
-            /*#########################################----3_section----#########################################*/
-
-
-
-
-
-
-
-                
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#######################################################################----START-MADIA----#######################################################################*/
-
-            @media screen and (max-width: 767px){
-
-                /*#########################################----1_section----#########################################*/
-                #section1{
-                    /*margin-top: 70px;*/
-                }
-                
-
-
-
-
-
-
-                /*#########################################----2_section----#########################################*/
-                #section2{
-                padding-bottom: 30px !important;
-                }
-
-                #div-container-2section{
-                    display: list-item !important;
-                    padding: 0% 10% 0% 10% !important;
-
-                }
-                #content1-2section p{
-                    width: 100% !important;
-                }
-                #content2-2section div{
-                    /*text-align: center !important;*/
-                    /*justify-content: center !important;*/
-                    /*align-items: center !important;*/
-                    /*align-content: center !important;*/
-                    float: left !important;
-                }
-                /*#########################################----3_section----#########################################*/
-                #section3{
-                    padding-top: 550px;
-                }
-                #content1-3section{
-                    display: list-item !important;
-                }
-                #content2-3section{
-                    display: list-item !important;
-                }
-                #content1-nom-4section{
-                    width: 80% !important;
-                    margin-right: 0px !important;
-                    padding-bottom: 90px !important;
-                }
-                #content1-preno-4section{
-                    width: 80% !important;
-                    margin-left: 0px !important;
-                    padding-bottom: 50px !important;
-                }
-                #content1-email-4section{
-                    width: 80% !important;
-                    margin-right: 0px !important;
-                    padding-bottom: 100px !important;
-                }
-                #content3-3section div{
-                    width: 80% !important;
-                    /*margin-right: 0px !important;*/
-                }
-                #content1-object-4section{
-                    width: 80% !important;
-                    margin-left: 0px !important;
-                    padding-bottom: 50px !important;
-                }
-                
-
-
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
-                
-
-
-            }
-
-            
-        </style>
         <script type="text/javascript">
             function valider(){
                 // ##########validation nom ###########
@@ -246,28 +32,28 @@
                 if (Email.value=="") {
                     document.getElementById('spanEmail').innerText = "Le champs doit etre remplir";
                 }
-<<<<<<< HEAD
-=======
+// <<<<<<< HEAD
+// =======
                 else if (Email.value.indexOf('@')==-1)
                 {
                     document.getElementById('spanEmail').innerText="Erreur ";
                     document.getElementById('spanEmail').style.color="red";
                 }
->>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
+// >>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
                 // else if (!e.test(Email.value))
                 // {
                 //     document.getElementById('spanEmail').innerText="Erreur";
                 //     document.getElementById('spanEmail').style.color="red";
 
                 // }
-<<<<<<< HEAD
+// <<<<<<< HEAD
                 else if (Email.value.indexOf('@')==-1)
                 {
                     document.getElementById('spanEmail').innerText="Erreur ";
                     document.getElementById('spanEmail').style.color="red";
                 }
-=======
->>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
+// =======
+// >>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
                 else{
                     document.getElementById('spanEmail').innerText = "";
                 }
@@ -334,35 +120,36 @@
                 <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
         </div>
+
         <!-- #########################################----1_section----######################################### -->
-        <section id="section1" style="">
+        <section id="section1">
             <center>
-                <div id="content1-1section" style="">
-                    <h1 class="h1-all-section" style="">Contactez-Nous</h1>
+                <div id="content1-1section">
+                    <h1 class="h1-all-section">Contactez-Nous</h1>
                 </div>
-                
                 <div id="content2-1section" style="position: relative !important;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7044854079727!2d-9.237442684447709!3d32.29292221581665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1577733452147!5m2!1sfr!2sma" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </center>
         </section>
+
         <!-- #########################################----2_section----######################################### -->
         <section id="section2">
             <center>
-                <div id="div-container-2section" style="">
-                    <div id="content1-2section" style="">
+                <div id="div-container-2section">
+                    <div id="content1-2section">
                         <h1 style="">Contactez Nous</h1>
                         <p style="">Pour plus d’informations, un devis gratuit, une question sur nos compétences ou sur nos tarifs nettoyage, travaux divers, services facilités ou travaux multiservices à Casablanca et partout au Maroc, n’hésitez pas à nous contacter, notre équipe est à votre disposition. Nous prendrons contact avec vous dès réception de votre message.</p>
                     </div>
-                    <div id="content2-2section" style="">
-                        <div id="div-g-content2-2section" style="">
+                    <div id="content2-2section">
+                        <div id="div-g-content2-2section">
                             <h1 style="">Nos Horaires</h1>
-                            <div id="div1-content2-2section" style="">
-                                <img src="img\T-imag\Groupe 26.png" style="">
+                            <div id="div1-content2-2section">
+                                <img src="img\T-imag\Groupe 26.png">
                                 <p style=""><b>LUNDI - VENDREDI : De 09h00 à 18h00</b></p>
                             </div>
-                            <div id="div2-content2-2section" style="">
-                                <img src="img\T-imag\Groupe 26.png" style="">
+                            <div id="div2-content2-2section">
+                                <img src="img\T-imag\Groupe 26.png">
                                 <p style=""><b>Samedi : De 09h00 à 13h00</b></p>
                             </div>
                         </div>
@@ -370,119 +157,52 @@
                 </div>
             </center>
         </section>
+
         <!-- #########################################----3_section----######################################### -->
         <section id="section3" style="margin-top: 50px;">
             <form>
                 <center>
                     <div id="div-container-3section">
-                        <div id="content1-3section" style="display: flex;justify-content: center;">
-                            <div id="content1-nom-4section" style="margin-right: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Nom :</label>
-                                <span id="spanNom" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
-                                <input type="text" id="Nom" placeholder="Nom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                        <div id="content1-3section">
+                            <div id="content1-nom-3section">
+                                <label class="label-section-3">Nom :</label>
+                                <span id="spanNom" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Nom" placeholder="Nom">
                             </div>
-                            <div id="content1-preno-4section" style="margin-left: 100px;width: 25%">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Prénom :</label>
-                                <span id="spanPrenom" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
-                                <input type="text" id="Prenom" placeholder="Prenom" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
-                            </div>
-                        </div>
-                        <div id="content2-3section" style="display: flex;justify-content: center;margin-top: 40px;">
-                            <div id="content1-email-4section" style="margin-right: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Email :</label>
-                                <span id="spanEmail" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
-                                <input type="text" id="Email" placeholder="Ex:email@gmail.com" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
-                            </div>
-                            <div id="content1-object-4section" style="margin-left: 100px;width: 25%;">
-                                <label style="float: left;font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Telephone :</label>
-                                <span id="spanTel" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
-                                <input type="text" id="Telephone" placeholder="Ex:+2126123456" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;float: left;">
+                            <div id="content1-preno-3section">
+                                <label class="label-section-3">Prénom :</label>
+                                <span id="spanPrenom" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Prenom" placeholder="Prenom">
                             </div>
                         </div>
-                        <div  id="content3-3section" style="justify-content: center;margin-top: 40px;">
+                        <div id="content2-3section">
+                            <div id="content1-email-3section">
+                                <label class="label-section-3">Email :</label>
+                                <span id="spanEmail" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Email" placeholder="Ex:email@gmail.com">
+                            </div>
+                            <div id="content1-object-3section">
+                                <label class="label-section-3">Telephone :</label>
+                                <span id="spanTel" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Telephone" placeholder="Ex:+2126123456">
+                            </div>
+                        </div>
+                        <div  id="content3-3section">
                             <center>
-                                <div style="width: 60%;">
-                                    <label style="float: left; font-size: 18px;font-family: Poppins Light;color: #7C7C7C;">Message :</label>
-                                    <span id="spanMessage" style="float: left;font-size: 18px;font-family: Poppins Light;color: #e74c3c"></span><br><br>
-                                    <textarea placeholder="Message" style="font-size: 18px;font-family: Poppins Light;color: #2c3e50;border-radius: 6px;width: 100%;height: 300px;"></textarea>
+                                <div id="content1-message-3section">
+                                    <label class="label-section-3">Message :</label>
+                                    <span id="spanMessage" class="span-section-3"></span><br><br>
+                                    <textarea id="textarea-3section" placeholder="Message"></textarea>
                                 </div>
                             </center>
-                            
                         </div>
-                        <div  id="content4-3section" style="margin-top: 40px;padding-bottom: 100px;">
-                            <!-- <a href="#" style="font-size: 39px;font-family: Poppins Medium;color: #FFFFFF;text-decoration: none; background-color: #38ADA9;padding: 25px 150px 25px 150px;border-radius: 35px;">Envoyer</a> -->
-                            <input type="button" id="" value="Envoyer" onclick="valider()" style="font-size: 39px;font-family: Poppins Medium;color: #FFFFFF;text-decoration: none; background-color: #38ADA9;padding: 25px 150px 25px 150px;border-radius: 35px;">
+                        <div  id="content4-3section">
+                            <input type="button" id="button-3section" value="Envoyer" onclick="valider()">
                         </div>
-                        
                     </div>
                 </center>
             </form>
         </section>
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7044854079727!2d-9.237442684447709!3d32.29292221581665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1577804179450!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1>
-        <h1>zzz</h1> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
