@@ -212,9 +212,13 @@ ul#elements {
     color: #38ADA9;
     text-align: center;
     position: relative;
+    font-family: 'Poppins light';
+    font-size: 15px;
 }
 
 .card-prix{
+    font-family: 'Poppins light', sans-serif;
+    font-size: 30px;
     color: #7C7C7C;
 }
 
@@ -224,7 +228,7 @@ ul#elements {
 
 .cards p{
     color: #7C7C7C;
-    font-family: 'Poppins';
+    font-family: 'Poppins light';
     font-size: 14px;
 }
 
@@ -240,6 +244,7 @@ ul#elements {
     border: 1px solid #EFEFEF;
 }
 
+
 /* Footer */
 footer{
     width: 100%;
@@ -250,26 +255,32 @@ footer{
 footer div a , footer div h3, footer div address{
     display: block;
     text-align: left;
+    text-align: center;
+    font-family: 'Poppins' light;
 }
 footer div p{
-    line-height: 1.5;
+    line-height: 1.6;
+    font-family: 'Poppins' light;
+    font-size: 13px;
 }
 footer div h3{
     color: #5C5C5C;
-    font-family: 'Poppins';
-    font-size: 14px;
+    font-family: 'Poppins' light;
+    font-size: 13px;
 }
 
 footer div a {
     text-decoration: none;
     font-family: 'Poppins';
     color: #3E3E3E;
-    font-size: 13px;
-    line-height: 1.6;
+    font-size: 12px;
+    line-height: 2;
 }
 
 footer div address{
     line-height: 1.7;
+    font-family: 'Poppins';
+    font-size: 12px;
 }
 
 footer .icons a i{
@@ -277,9 +288,12 @@ footer .icons a i{
     padding-top: 10px;
     margin-right: 10px;
     float: left;
-    /* position: relative;
-    left: 35%; */
+    padding-left: 10px;
+}
 
+footer .icons {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-propos, .footer-apercu, .footer-services, 
