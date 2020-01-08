@@ -226,3 +226,12 @@
         display: none !important;
     }
 }
+
+@media (min-width:1200px){
+    .Services_en_Vedette {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10%; */
+        margin: auto;
+    }
+}
