@@ -3,7 +3,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-
+body{
+    margin: 0px;
+    padding-left: 0px;
+}
 /* Top Menu */
 .top_menu {
     display: flex;
