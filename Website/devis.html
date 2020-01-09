@@ -23,7 +23,7 @@
                 border-radius: 6px;
             }
             .textarea{
-                font-size: 20px;
+                font-size: 14px;
                 font-family: Poppins Light;
                 color: #2c3e50;
                 border-radius: 6px;
@@ -213,25 +213,39 @@
                     <form>
                         <label class="label">Nom : </label>
                         <span id="spanNom"></span> <br>
-                        <input class="input-t" type="text" id="Nom"><br>
+                        <input class="input-t" type="text" id="Nom" placeholder="Nom"><br>
+
+
                         <label class="label">Societé : </label>
                         <span id="spanSociete"></span><br>
-                        <input class="input-t" type="text" id="Societe"><br>
+                        <input class="input-t" type="text" id="Societe" placeholder="Societé"><br>
+
+
                         <label class="label">Adresse : </label>
                         <span id="spanAdresse"></span><br>
                         <input class="input-t" type="text" id="Adresse"><br>
+
+
                         <label class="label">Tel : </label>
                         <span id="spanTel"></span><br>
-                        <input class="input-t" type="text" id="Tel"><br>
+                        <input class="input-t" type="text" id="Tel" placeholder="Ex:+2126123456"><br>
+
+
                         <label class="label">Email : </label>
                         <span id="spanEmail"></span><br>
-                        <input class="input-t" type="text" id="Email"><br>
+                        <input class="input-t" type="text" id="Email" placeholder="Ex:email@gmail.com"><br>
+
+
                         <label class="label">Type de locaux : </label>
                         <span id="spanlocaux"></span><br>
-                        <input class="input-t" type="text" id="Type_de_locaux"><br>
+                        <input class="input-t" type="text" id="Type_de_locaux" placeholder="Type de locaux"><br>
+
+
                         <label class="label">Commentaires :</label>
                         <span id="spanCommentaires"></span><br>
-                        <textarea class="textarea" name="Commentaires" id="Commentaires" cols="30" rows="10"></textarea><br>
+                        <textarea class="textarea" name="Commentaires" id="Commentaires" cols="30" rows="10" placeholder="Commentaires"></textarea><br>
+
+
                         <input type="button" id="env" value="Envoyer" onclick="valider()">
                         <p id="Remarque ">Remarque : En cas de difficulté d'envoi du formulaire, vous pouvez nous contacter par e-mail: service.client.ns@gmail.com</p>
                     </form>
