@@ -12,6 +12,7 @@ body{
 /*#########################################----1_section----#########################################*/
 #div-container-1section{
     background-image: url(shutterstock-640896577.png);
+    background-size: cover !important;
     width: 100%;
     height: 720px;
 }

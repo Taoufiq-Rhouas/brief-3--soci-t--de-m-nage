@@ -32,28 +32,11 @@
                 if (Email.value=="") {
                     document.getElementById('spanEmail').innerText = "Le champs doit etre remplir";
                 }
-// <<<<<<< HEAD
-// =======
-                // else if (Email.value.indexOf('@')==-1)
-                // {
-                //     document.getElementById('spanEmail').innerText="Erreur ";
-                //     document.getElementById('spanEmail').style.color="red";
-                // }
-// >>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
-                // else if (!e.test(Email.value))
-                // {
-                //     document.getElementById('spanEmail').innerText="Erreur";
-                //     document.getElementById('spanEmail').style.color="red";
-
-                // }
-// <<<<<<< HEAD
                 else if (Email.value.indexOf('@')==-1)
                 {
                     document.getElementById('spanEmail').innerText="Erreur ";
                     document.getElementById('spanEmail').style.color="red";
                 }
-// =======
-// >>>>>>> 3593a3e9c827fb7d71f640d1222a002d69e23dc4
                 else{
                     document.getElementById('spanEmail').innerText = "";
                 }
@@ -73,10 +56,6 @@
                 {
                     document.getElementById('spanTel').innerHTML="";
                 }
-                
-                // else{
-                //     document.getElementById('spanTel').innerText = "";
-                // }
             }
         </script>
     </head>
@@ -117,7 +96,7 @@
                 <li><a href="nos-travaux.html">Nos Travaux </a></li>
                 <li><a href="prix.html">Prix</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
                 <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
             </ul>
         </div>
@@ -194,11 +173,12 @@
                                     <label class="label-section-3">Message :</label>
                                     <span id="spanMessage" class="span-section-3"></span><br><br>
                                     <textarea id="textarea-3section" placeholder="Message"></textarea>
+                                    <input type="button" id="button-3section" value="Envoyer" onclick="valider()">
                                 </div>
                             </center>
                         </div>
                         <div  id="content4-3section">
-                            <input type="button" id="button-3section" value="Envoyer" onclick="valider()">
+                            <!-- <input type="button" id="button-3section" value="Envoyer" onclick="valider()"> -->
                         </div>
                     </div>
                 </center>
@@ -208,33 +188,33 @@
 
 
         <!-- Footer -->
-        <footer style="position: relative;">
+        <footer style="margin-top: 40px;">
             <div class="footer-propos">
                 <img src="img/Aimages/logo.png" width="60px" alt="Logo">
                 <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage 
                     et de traitement: une organisation rigoureuse et fiable .</p>
-                <p style="color: #3E3E3E">&copy; Copyright 2020 <b>Cleannn</b>,  All Right Reserved</p>
+                    <p>&copy; Copyright 2020 Cleannn,  All Right Reserved</p>
             </div>
 
             <div class="footer-apercu">
                 <h3>Aperçu rapide</h3>
-                <a href="#">Accueil</a>
+                <a href="Accueil.html">Accueil</a>
                 <a href="propos.html">À propos de nous</a>
-                <a href="#">services</a>
-                <a href="#">nos oeuvres</a>
+                <a href="services.html">services</a>
+                <a href="nos-travaux.html">Nos Travaux </a>
                 <a href="prix.html">prix</a>
                 <a href="blog.html">Blog</a>
-                <a href="#">contact</a>
-                <a href="#">demander un devis</a>
+                <a href="contact.html">contact</a>
+                <a href="devis.html">demander un devis</a>
             </div>
 
             <div class="footer-services">
                 <h3>Services</h3>
-                <a href="#">Commercial Cleaning</a>
-                <a href="#">House Cleaning</a>
-                <a href="#">Office Cleaning</a>
-                <a href="#">Glass Cleaning</a>
-                <a href="#">Window Clening</a>
+                <a>Nettoyage commercial</a>
+                <a>Nettoyage de maison</a>
+                <a>Nettoyage de bureau</a>
+                <a>Nettoyez la glass</a>
+                <a>Nettoyez les fenetres</a>
             </div>
 
             <div class="footer-contactez-nous">
@@ -245,11 +225,11 @@
                     Fax: +1 342 422 5314 <br>
                 </address>
                 <div class="icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fm2w%26s%3D100%26p%255Burl%255D%3Dhttp%253A%252F%252Fwww.nettoyage-casablanca-maroc.com%252F2018%252F07%252F04%252Fconseils-pour-maintenir-propre-une-maison%252F%26p%255Bimages%255D%255B0%255D%26p%255Btitle%255D%3DConseils%2Bpour%2Bmaintenir%2Bpropre%2Bune%2Bmaison&display=popup"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/intent/tweet?text=Conseils%20pour%20maintenir%20propre%20une%20maison&url=http://www.nettoyage-casablanca-maroc.com/2018/07/04/conseils-pour-maintenir-propre-une-maison/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/m/login/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCIoNmspDcafK-64GIvoVk7Q/videos"><i class="fa fa-youtube-play"></i></a>
                 </div>
             </div>
         </footer>

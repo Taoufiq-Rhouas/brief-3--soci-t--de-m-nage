@@ -123,6 +123,9 @@ body{
 #content4-3section{
     margin-top: 40px;
     padding-bottom: 100px;
+    /*background-color: red;
+*/
+
 }
 #content1-nom-3section{
     margin-right: 100px;
@@ -152,11 +155,30 @@ body{
     height: 300px;
 }
 #button-3section{
-    font-size: 39px;
+    /*font-size: 39px;
     font-family: Poppins Medium;
     color: #FFFFFF;
     text-decoration: none;
     background-color: #38ADA9;
     padding: 25px 150px 25px 150px;
+    border-radius: 35px;*/
+    /*position: relative;
+    font-size: 16px;
+    float: left !important;
+    font-family: Poppins Medium;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #38ADA9;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;*/
+    float: left;
+    width: 149px;
+    height: 44px;
+    background-color: rgb(56, 173, 169);
+    color: white;
+    font-weight: bold;
     border-radius: 35px;
+    border-style: none;
+
 }
