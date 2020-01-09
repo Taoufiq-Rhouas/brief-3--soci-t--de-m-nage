@@ -133,22 +133,23 @@
     /* Comment_Nous_Travaillons */
     .Comment_Nous_Travaillons{
         display: flex !important;
-        flex-direction: row !important;
+        /* flex-direction: row !important; */
         flex-wrap: wrap !important;
-        justify-content: flex-start !important;
+        /* justify-content: center !important; */
+        padding-left: 0px !important;
     }
 
     .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-1,
     .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-2{
         width: 30%;
         float: left !important;
-        margin-left: 40px !important;
+        /* margin-left: 40px !important; */
     }
     .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-3,
     .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-4{
         width: 30%;
         float: left !important;
-        margin-left: 40px !important;
+        /* margin-left: 40px !important; */
     }
 }
 
