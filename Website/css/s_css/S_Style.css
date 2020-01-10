@@ -194,38 +194,39 @@ footer{
 
 footer div a , footer div h3, footer div address{
     display: block;
-    text-align: left;
+    /* text-align: left; */
     text-align: center;
-    font-family: 'Poppins';
+    /* font-family: 'Poppins' light; */
+    font-family: 'Poppins light';
     color: #3E3E3E;
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 2;
 }
 footer div p{
     line-height: 1.6;
-    font-family: 'Poppins';
-    font-size: 14px;
-    color: #3E3E3E;
+    font-family: 'Poppins light' ;
+    font-size: 10px;
 }
 footer div h3{
     color: #5C5C5C;
-    font-family: 'Poppins';
-    font-size: 13x;
-    font-weight: bold;
+    font-family: 'Poppins light' ;
+    font-size: 11px;
 }
 
 footer div a {
     text-decoration: none;
+    font-family: 'Poppins light';
     color: #3E3E3E;
-    font-size: 13px;
+    font-size: 10px;
     line-height: 2;
-    font-family: 'Poppins';
 }
 
 footer div address{
-    line-height: 2;
-    font-family: 'Poppins';
-    font-size: 12px;
+    line-height: 1.7;
+    font-family: 'Poppins light';
     color: #3E3E3E;
+    font-size: 10px;
+    line-height: 2;
 }
 
 footer .icons a i{
