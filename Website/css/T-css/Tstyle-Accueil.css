@@ -256,7 +256,7 @@ overflow: hidden !important;
     font-family: Poppins SemiBold;
 }
 #img-7section{
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 #icon-7section{
     height: 40px; 
