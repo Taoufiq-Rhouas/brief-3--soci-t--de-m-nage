@@ -21,12 +21,17 @@
                 font-family: Poppins Light;
                 color: #2c3e50;
                 border-radius: 6px;
+                height: 35px;
             }
             .textarea{
                 font-size: 14px;
                 font-family: Poppins Light;
                 color: #2c3e50;
                 border-radius: 6px;
+            }
+            #Nom ,#Societe ,#Adresse ,#Tel ,#Email ,#Type_de_locaux{
+                margin-bottom: 15px;
+                border: 1px solid #7C7C7C;
             }
         </style>
         <script type="text/javascript">
@@ -213,37 +218,37 @@
                     <form>
                         <label class="label">Nom : </label>
                         <span id="spanNom"></span> <br>
-                        <input class="input-t" type="text" id="Nom" placeholder="Nom"><br>
+                        <input class="input-t" type="text" id="Nom" placeholder="Nom">
 
 
                         <label class="label">Societé : </label>
                         <span id="spanSociete"></span><br>
-                        <input class="input-t" type="text" id="Societe" placeholder="Societé"><br>
+                        <input class="input-t" type="text" id="Societe" placeholder="Societé">
 
 
                         <label class="label">Adresse : </label>
                         <span id="spanAdresse"></span><br>
-                        <input class="input-t" type="text" id="Adresse"><br>
+                        <input class="input-t" type="text" id="Adresse" placeholder="Adresse">
 
 
                         <label class="label">Tel : </label>
                         <span id="spanTel"></span><br>
-                        <input class="input-t" type="text" id="Tel" placeholder="Ex:+2126123456"><br>
+                        <input class="input-t" type="text" id="Tel" placeholder="Ex:+2126123456">
 
 
                         <label class="label">Email : </label>
                         <span id="spanEmail"></span><br>
-                        <input class="input-t" type="text" id="Email" placeholder="Ex:email@gmail.com"><br>
+                        <input class="input-t" type="text" id="Email" placeholder="Ex:email@gmail.com">
 
 
                         <label class="label">Type de locaux : </label>
                         <span id="spanlocaux"></span><br>
-                        <input class="input-t" type="text" id="Type_de_locaux" placeholder="Type de locaux"><br>
+                        <input class="input-t" type="text" id="Type_de_locaux" placeholder="Type de locaux">
 
 
                         <label class="label">Commentaires :</label>
                         <span id="spanCommentaires"></span><br>
-                        <textarea class="textarea" name="Commentaires" id="Commentaires" cols="30" rows="10" placeholder="Commentaires"></textarea><br>
+                        <textarea class="textarea" name="Commentaires" id="Commentaires" cols="30" rows="10" placeholder="Commentaires"></textarea><br><br>
 
 
                         <input type="button" id="env" value="Envoyer" onclick="valider()">
